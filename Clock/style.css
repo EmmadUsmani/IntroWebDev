@@ -1,0 +1,17 @@
+body {    
+    /*photo credit: reddit user u/nofordhk*/
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 900%;
+    color: white;
+    text-shadow: 2px 2px black;
+}
