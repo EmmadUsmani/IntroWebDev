@@ -1,17 +1,18 @@
-body {    
-    /*photo credit: reddit user u/nofordhk*/
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+html {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #clock {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 900%;
-    color: white;
-    text-shadow: 2px 2px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: sans-serif;
+  font-size: 900%;
+  color: white;
+  text-shadow: 2px 2px black;
 }

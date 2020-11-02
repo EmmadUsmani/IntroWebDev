@@ -1,40 +1,40 @@
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: #fafaf7;
-    color: #404040;
+  font-family: sans-serif;
+  background-color: #f7f7fa;
+  color: #404040;
 }
 
 #picture {
-    width: 800px;
-    display: block;
-    margin: auto;
-    border-style: solid;
-    border-color: #404040;
-    border-width: 1px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px grey;
+  width: 800px;
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: #404040;
+  border-width: 3px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
 }
 
 #caption {
-    text-align: center;
+  text-align: center;
 }
 
 .title {
-    color: #171717;
+  color: #171717;
 }
 
 .section {
-    display: block;
-    width: 60%;
-    margin: auto;
-    padding-bottom: 10px;
+  display: block;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 .list {
-    line-height: 1.75em;
+  line-height: 1.75em;
 }
 
 #mail {
-    text-align: center;
-    line-height: 0.3em;
+  text-align: center;
+  line-height: 0.3em;
 }
